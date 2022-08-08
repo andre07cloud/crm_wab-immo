@@ -1,0 +1,54 @@
+{
+  "name": "crm_wab",
+  "version": "1.0.0",
+  "description": "API pour le CRM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://andre_de_Jesus@bitbucket.org/wabdev/crm_wab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/wabdev/crm_wab/issues"
+  },
+  "homepage": "https://bitbucket.org/wabdev/crm_wab#readme",
+  "dependencies": {
+    "@3cx/api": "^0.0.36",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cookies-parser": "^1.2.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "csv-parse": "^5.1.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fast-csv": "^4.3.6",
+    "firebase-admin": "^10.3.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.4",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "path": "^0.12.7",
+    "pow-mongodb-fixtures": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
